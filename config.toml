@@ -1,0 +1,150 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+illustrations = [
+  "image-short-1.jpg",
+  "image-short-2.jpg",
+  "image-short-3.jpg",
+  "image-short-4.jpg",
+  "image-short-5.jpg",
+  "image-short-6.jpg",
+  "image-short-7.jpg",
+  "image-short-8.jpg",
+  "image-tall-1.jpg",
+  "image-tall-2.jpg",
+]
+
+[[extra.projects]]
+name = "BCLC"
+desc = "Community Impact Reports"
+slug = "bclc-com"
+modal_title = "BCLC Community Impact Reports"
+modal_summary = "The Province of B.C. established BCLC 35 years ago to give back to communities and support growth across the province. The annual Community Impact Reports highlight how gambling revenue has been distributed to benefit communities, provincial programs and services, charities, and major events that have shaped B.C. My role in producing these reports included designing layouts, ensuring brand consistency, editing photos, typesetting, and refining copy. I also collaborated closely with stakeholders to incorporate feedback and ensure accuracy throughout the process."
+modal_images = [
+  "image-1.jpg",
+  "image-2.jpg",
+  "image-3.jpg",
+  "image-4.jpg",
+  "image-5.jpg",
+  "image-6.jpg",
+  "image-7.jpg",
+]
+
+[[extra.projects]]
+name = "BCLC"
+desc = "Quarterly Digest Newsletter"
+slug = "bclc-lotto"
+modal_title = "BCLC Quarterly Digest"
+modal_summary = "The Lottery Winners Quarterly Digest highlighted the top wins and inspiring stories from the last quarter. My role involved designing the layout based on stakeholder requirements and provided content, editing photos to enhance their quality, typesetting, and refining the copy for clarity and consistency."
+modal_images = [
+  "image-1.jpg",
+  "image-2.jpg",
+  "image-3.png",
+  "image-4.png",
+  "image-5.png",
+  "image-6.jpg",
+]
+
+[[extra.projects]]
+name = "Ciderdays"
+desc = "Cider Company"
+slug = "ciderdays"
+modal_title = "Ciderdays"
+modal_summary = "Cider Days is a concept project for a hard cider brand that focuses on bold, unique flavors and a playful, approachable identity. For the packaging design, I wanted to capture the brand’s fun and energetic spirit with vibrant colors and dynamic visuals, all tied together with a retro-inspired style. The goal was to create a design that feels nostalgic yet fresh, evoking a sense of joy and discovery while standing out on the shelf. This project allowed me to experiment with blending retro aesthetics and modern design elements to bring the brand’s personality to life."
+modal_images = [
+  "image-6.jpg",
+  "image-1.jpg",
+  "image-2.jpg",
+  "image-3.jpg",
+  "image-4.jpg",
+  "image-5.jpg",
+  "image-7.jpg"
+]
+
+[[extra.projects]]
+name = "Halfday"
+desc = "Organic Skincare Brand"
+slug = "halfday"
+modal_title = "Halfday Skin Care"
+modal_summary = "Halfday Skincare is a concept project inspired by the idea of slowing down and embracing natural beauty. Designed for a minimalist, plant-based skincare brand, the packaging reflects this philosophy with a clean, approachable, and unintimidating aesthetic. My goal was to create something modern and fresh that feels welcoming to everyone, highlighting the simplicity and transparency at the heart of the brand. This project was an opportunity to explore thoughtful design that encourages moments of relaxation and self-care."
+modal_images = [
+  "image-1.jpg",
+  "image-2.jpg",
+  "image-3.jpg",
+  "image-4.jpg",
+  "image-5.jpg",
+  "image-6.jpg",
+  "image-7.jpg",
+  "image-8.jpg",
+]
+
+[[extra.projects]]
+name = "Bowhouse"
+desc = "Landing Page Design"
+slug = "bowhouse"
+modal_title = "Bowhouse"
+modal_summary = "This concept landing page brings a festive touch to a pet store with a subtle red Christmas theme and friendly, playful imagery. The design feels warm and inviting, featuring soft holiday accents that complement adorable photos of pets. A cheerful headline welcomes visitors, paired with an easy-to-navigate layout that highlights holiday promotions, gift ideas, and seasonal treats for furry friends. The tone is lighthearted and joyful, creating a perfect blend of holiday spirit and functionality to make shopping for pets during the holidays simple and fun. It’s the perfect way to celebrate the season with your furry family members in mind."
+modal_images = [
+  "image-1.jpg",
+  "image-2.png",
+  "image-3.jpg",
+  "image-4.jpg",
+  "image-5.jpg",
+  "image-6.jpg",
+]
+
+[[extra.projects]]
+name = "Lagom"
+desc = "Childrens Clothing Brand"
+slug = "lagom"
+modal_title = "Lagom Concepts"
+modal_summary = "Lagom Concepts is a children’s clothing brand based in Vancouver, BC. They wanted playful, adventure-themed illustrations featuring a lovable bear as the main character. Alongside the illustrations, we designed their business cards, hang tags, stickers, buttons, and luggage tags. For the business cards, we chose a sleek black design with a clear varnish finish and minimal text for subtle yet impactful branding, a style we carried through to the product tags for a cohesive look."
+modal_images = [
+  "image-1.jpg",
+  "image-2.jpg",
+  "image-3.jpg",
+  "image-4.jpg",
+  "image-5.jpg",
+  "image-6.jpg",
+  "image-7.jpg",
+  "image-8.jpg",
+  "image-10.jpg",
+  "image-11.jpg",
+  "image-12.jpg",
+  "image-13.jpg",
+  "image-14.jpg",
+]
+
+[[extra.projects]]
+name = "Illumine Creative"
+desc = "Childrens Soft Toy Brand"
+slug = "illumine"
+modal_title = "Illumine Creative"
+modal_summary = "Illumine Creative is a personal brand I’ve built over the years, inspired by my endless curiosity and love for exploring new hobbies. The name 'Illumine', meaning 'to light up', was chosen because it captures the joy and excitement that lights up someone’s face when they receive a thoughtful gift. Adding 'Creative' keeps the brand open and adaptable, allowing me to experiment freely with different crafts and ideas. It’s a reflection of my passion for creating meaningful, handmade items that spark happiness and connection."
+modal_images = [
+  "image-1.jpg",
+  "image-2.jpg",
+  "image-3.jpg",
+  "image-4.jpg",
+  "image-5.jpg",
+  "image-6.jpg",
+  "image-7.jpg",
+  "image-8.jpg",
+  "image-9.jpg",
+  "image-10.jpg",
+  "image-11.jpg",
+  "image-12.jpg",
+  "image-13.jpg",
+]
